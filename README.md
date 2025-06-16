@@ -38,4 +38,16 @@ Was ist die zweite Zahl?3
 1+1=
 2.0`
 
+***
+
 Natürlich können Werte ungenau sein, wie im 3. Beispiel, was eigentlich 27,6 sein muss, was an der Rechenweise von Python liegt, nicht an mir. Auch schließe ich nicht aus, dass ich fehlerhaft programmiert habe. Weißt mich gern auf jeden Bug hin, der auf meinen Code zurückzuführen ist.
+
+<br>
+<br>
+
+***
+
+Wenn dir meine Arbeit gefällt, kannst du mich hier unterstützen:
+
+<a href="https://coindrop.to/TippX" target="_blank"><img src="https://coindrop.to/embed-button.png" style="border-radius: 10px; height: 57px !important;width: 229px !important;" alt="Coindrop.to me"></img></a>
+
