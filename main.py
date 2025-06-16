@@ -45,9 +45,9 @@ def multipliziere(a="1",b='1',c="1",d='1',e="1",f='1',g="1",h='1'):
         print(f"Ein Fehler ist aufgetreten: {e}")
 
 
-
 def Löse(a="interaktiv",z="interaktiv",b="interaktiv"):
     try:
+        Interaktiv = False
         if a=="interaktiv" or z=="interaktiv" or b == "interaktiv":
             Interaktiv = True
 
@@ -72,7 +72,7 @@ def Löse(a="interaktiv",z="interaktiv",b="interaktiv"):
         if b=="interaktiv":
             while True:
                 try:
-                    b = input("Was ist die erste Zahl?")
+                    b = input("Was ist die zweite Zahl?")
                     temp = float(b)
                     break
                 except ValueError:
@@ -95,5 +95,10 @@ def Löse(a="interaktiv",z="interaktiv",b="interaktiv"):
 
 
 
-def Taschenrechner(a="interaktiv",b="interaktiv"):
-    return Löse(a,b)
+def Taschenrechner(a="interaktiv",z="interaktiv",b="interaktiv"):
+    return Löse(a,z,b)
+
+
+
+def TT(a="interaktiv",z="interaktiv",b="interaktiv"):
+    return Taschenrechner(a,z,b)
