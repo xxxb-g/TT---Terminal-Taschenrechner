@@ -13,23 +13,27 @@ Ein einfacher Taschenrechner, in Python geschrieben.
 - `addiere(7,3)
 7+3=
 10.0`
--`subtrahiere(15,2.5)
+  
+- `subtrahiere(15,2.5)
 15-2.5=
 12.5`
--`multipliziere(32,0.5,0.75,2.3)
+
+- `multipliziere(32,0.5,0.75,2.3)
 Diese Werte multipliziert ergeben:
 27.599999999999998`
+
 - `dividiere(21,"7")
 21/7=
 3.0`
+  
 - `Taschenrechner(15)
 Welche Rechenoperation willst du nutzen? (+ für Addition, - für Subtraktion, * für Multiplikation, / für Division) vertippt
 Ungültige Eingabe. Versuche es erneut!
 Welche Rechenoperation willst du nutzen? (+ für Addition, - für Subtraktion, * für Multiplikation, / für Division)+
 Was ist die zweite Zahl?3
-
 15+3=
 18.0`
+
 -`TT(1,"+",1)
 1+1=
 2.0`
